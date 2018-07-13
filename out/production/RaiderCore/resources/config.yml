@@ -1,0 +1,48 @@
+#RaiderCore Configuration File
+#Written by Raider.  This plugin is a set of small patches that are meant to be used on factions servers.
+#DO NOT CHANGE THIS LINE:
+config-version: 1
+#Enable /report command
+report-command: true
+#disable crafting of hoppers
+disable-hopper-crafting: true
+#disable creepers from targeting players
+disable-creeper-player-targeting: true
+#prevents mobs from targetting players.
+disable-all-mob-player-targeting: false
+#disable hunger
+disable-hunger: true
+#make spawners act like sponges; water and lava wont cover them.
+enable-spawner-sponge: true
+#make spawners automatically blow up if hit by tnt in a 3x3 radius.  do not enable with spawnersponge.
+enable-wateredspawnerspatch: false
+#make sponges stop water and lava in 3x3 radius
+enable-spongepatch: true
+
+#Worldguard region names where crops will not decay (useful for builds, e.x spawn that have crops)
+#region names cannot have a comma, format is region:worldname. must be exact.
+disable-crop-decay-regions:
+  - EXAMPLE:End
+  - HELLO:world
+#disables the trampling of soil in specified regions.
+#same format as above.
+disable-soil-trampling-regions:
+  - EXAMPLE:end
+  - HELLO:world
+#commands will not be allowed to be executed by players.
+disable-commands:
+  - /op
+  - /zperm
+  - /perm
+  - /restart
+  - /reload
+
+#radius for wateredspawnerspatch. must be greater than or equal to 1
+wateredspawnerspatch-radius: 3
+#radius for spawnersponge. must be greater than or equal to 3. dimensions of box, e.x if 3 forms a 3x3 box around sponge.
+spawnersponge-radius: 3
+#sponge radius. normal is 7
+spongepatch-radius: 7
+#In these regions and worlds, tnt will only be able to be used by the faction who owns the land its being used in.
+faction-based-tnt:
+  - EXAMPLE:WORLD

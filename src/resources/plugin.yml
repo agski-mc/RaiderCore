@@ -1,0 +1,11 @@
+name: RaiderCore
+version: 2.0
+author: Raider
+main: org.raider.raidercore.RaiderCore
+description: a series of small patches compiled into one file
+depend: [SilkSpawners, WorldGuard, WorldEdit]
+commands:
+  report:
+    description: reports a player to staff for given reason.
+    usage: /report (Player) (Reason)
+
