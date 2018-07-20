@@ -112,6 +112,10 @@ public class RaiderCore extends JavaPlugin {
         return DISABLE_EXPLOSIONS;
     }
 
+    public static boolean isFactionTntEnabled(){
+        return !factionTnt.isEmpty();
+    }
+
     private void loadPatches(){
         PluginManager pm = getServer().getPluginManager();
         if(DISABLE_CREEPER_PLAYER_TARGETING || DISABLE_ALL_MOB_PLAYER_TARGETING)
