@@ -15,6 +15,10 @@ public class NoTNTPatch implements Listener {
     @EventHandler(ignoreCancelled = true)
     public void onEntityExplode(EntityExplodeEvent event){
         if(event.isCancelled()) return;
+        if(RaiderCore.isExplosionsDisabled()){
+            event.setCancelled(true);
+            return;
+        }
         if(event.getEntity() instanceof TNTPrimed) {
             ApplicableRegionSet pr = WorldGuardPlugin.inst().getRegionManager(event.getLocation().getWorld()).getApplicableRegions(event.getLocation());
             if (pr.getRegions().stream().anyMatch(RaiderCore::disallowExplosion)) {

@@ -18,6 +18,8 @@ enable-spawner-sponge: true
 enable-wateredspawnerspatch: false
 #make sponges stop water and lava in 3x3 radius
 enable-spongepatch: true
+#disables all explosions
+disable-explosions: false
 
 #Worldguard region names where crops will not decay (useful for builds, e.x spawn that have crops)
 #region names cannot have a comma, format is region:worldname. must be exact.

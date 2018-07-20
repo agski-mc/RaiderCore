@@ -7,7 +7,9 @@ import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.raider.raidercore.commands.CmdConfig;
 import org.raider.raidercore.commands.CmdReport;
+import org.raider.raidercore.commands.CmdSettings;
 import org.raider.raidercore.listeners.CommandListener;
 import org.raider.raidercore.patches.*;
 
@@ -19,15 +21,15 @@ import java.util.Set;
 import static org.raider.raidercore.patches.HopperCraftPatch.patchHoppers;
 
 public class RaiderCore extends JavaPlugin {
-    public static int CONFIG_VERSION = 1;
+    private static int CONFIG_VERSION = 1;
 
     private static boolean ENABLE_REPORT_COMMAND = false;
 
     private static boolean DISABLE_HOPPER_CRAFTING = false;
 
-    public static boolean DISABLE_CREEPER_PLAYER_TARGETING = false;
+    private static boolean DISABLE_CREEPER_PLAYER_TARGETING = false;
 
-    public static boolean DISABLE_ALL_MOB_PLAYER_TARGETING = false;
+    private static boolean DISABLE_ALL_MOB_PLAYER_TARGETING = false;
 
     private static boolean DISABLE_HUNGER = false;
 
@@ -35,21 +37,23 @@ public class RaiderCore extends JavaPlugin {
 
     private static boolean ENABLE_WATEREDSPAWNERSPATCH = false;
 
-    public static int SPAWNERSPONGE_RADIUS = 3;
+    private static int SPAWNERSPONGE_RADIUS = 3;
 
-    public static int WATEREDSPAWNERSPATCH_RADIUS = 3;
+    private static int WATEREDSPAWNERSPATCH_RADIUS = 3;
 
-    public static int SPONGEPATCH_RADIUS = 3;
+    private static int SPONGEPATCH_RADIUS = 3;
 
     private static boolean ENABLE_SPONGEPATCH = false;
 
-    public static Set<ProtectedRegion> noCropDecay = new HashSet<>();
+    private static boolean DISABLE_EXPLOSIONS = false;
 
-    public static Set<ProtectedRegion> noSoilTrampling = new HashSet<>();
+    private static Set<ProtectedRegion> noCropDecay = new HashSet<>();
 
-    public static Set<String> disallowCommands = new HashSet<>();
+    private static Set<ProtectedRegion> noSoilTrampling = new HashSet<>();
 
-    public static Set<ProtectedRegion> factionTnt = new HashSet<>();
+    private static Set<String> disallowCommands = new HashSet<>();
+
+    private static Set<ProtectedRegion> factionTnt = new HashSet<>();
 
     private static RaiderCore i;
     public static RaiderCore get(){
@@ -59,6 +63,8 @@ public class RaiderCore extends JavaPlugin {
         saveDefaultConfig();
         loadConfig();
         loadPatches();
+        getServer().getPluginCommand("rsettings").setExecutor(new CmdSettings());
+        getServer().getPluginCommand("rconfig").setExecutor(new CmdConfig());
         i = this;
     }
 
@@ -102,6 +108,10 @@ public class RaiderCore extends JavaPlugin {
         return factionTnt.contains(pr);
     }
 
+    public static boolean isExplosionsDisabled(){
+        return DISABLE_EXPLOSIONS;
+    }
+
     private void loadPatches(){
         PluginManager pm = getServer().getPluginManager();
         if(DISABLE_CREEPER_PLAYER_TARGETING || DISABLE_ALL_MOB_PLAYER_TARGETING)
@@ -124,7 +134,7 @@ public class RaiderCore extends JavaPlugin {
             pm.registerEvents(new WateredSpawnersPatch(), this);
         if(DISABLE_HOPPER_CRAFTING)
             patchHoppers();
-        if(!factionTnt.isEmpty()){
+        if(!factionTnt.isEmpty() || DISABLE_EXPLOSIONS){
             pm.registerEvents(new NoTNTPatch(), this);
         }
     }
@@ -144,6 +154,7 @@ public class RaiderCore extends JavaPlugin {
         SPAWNERSPONGE_RADIUS = file.getInt("spawnersponge-radius");
         WATEREDSPAWNERSPATCH_RADIUS = file.getInt("wateredspawnerspatch-radius");
         CONFIG_VERSION = file.getInt("config-version");
+        DISABLE_EXPLOSIONS = file.getBoolean("disable-explosions");
 
         List<String> cropdecay = file.getStringList("disable-crop-decay-regions");
 

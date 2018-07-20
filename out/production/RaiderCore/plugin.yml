@@ -8,4 +8,10 @@ commands:
   report:
     description: reports a player to staff for given reason.
     usage: /report (Player) (Reason)
+  rsettings:
+    description: view the RaiderCore config settings.
+    usage: /rsettings
+  rconfig:
+    description: reload the RaiderCore config.
+    usage: /rconfig
 
