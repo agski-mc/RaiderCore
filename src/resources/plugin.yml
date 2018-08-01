@@ -1,9 +1,9 @@
 name: RaiderCore
-version: 2.0
+version: 2.1
 author: Raider
 main: org.raider.raidercore.RaiderCore
-description: a series of small patches compiled into one file
-depend: [SilkSpawners, WorldGuard, WorldEdit]
+description: a series of small patches compiled into one file.  Also includes commands to give players leather armor that takes damage like diamond armor.
+depend: [SilkSpawners, WorldGuard, WorldEdit,MassiveCore]
 commands:
   report:
     description: reports a player to staff for given reason.
@@ -14,4 +14,7 @@ commands:
   rconfig:
     description: reload the RaiderCore config.
     usage: /rconfig
+  testarmor:
+    description: test command for giving players custom leather armor that acts like diamond armor.
+    usage: /testarmor <ArmorType>
 

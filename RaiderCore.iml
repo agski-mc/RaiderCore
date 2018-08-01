@@ -8,12 +8,12 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1418" level="project" />
-    <orderEntry type="library" name="SilkSpawners (1)" level="project" />
-    <orderEntry type="library" name="Factions" level="project" />
+    <orderEntry type="library" name="Factions-2.13.6" level="project" />
     <orderEntry type="library" name="MassiveCore" level="project" />
-    <orderEntry type="library" name="PotatoHead-1.8.8-R0.2-SNAPSHOT_8" level="project" />
-    <orderEntry type="library" name="worldguard-6.2.1" level="project" />
+    <orderEntry type="library" name="spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1648" level="project" />
+    <orderEntry type="library" name="craftbukkit-1.8.8-R0.1-SNAPSHOT-latest" level="project" />
+    <orderEntry type="library" name="worldguard-6.1" level="project" />
+    <orderEntry type="library" name="SilkSpawners" level="project" />
     <orderEntry type="library" name="worldedit-bukkit-6.1.7.3" level="project" />
   </component>
 </module>

@@ -11,6 +11,7 @@ import org.raider.raidercore.commands.CmdConfig;
 import org.raider.raidercore.commands.CmdReport;
 import org.raider.raidercore.commands.CmdSettings;
 import org.raider.raidercore.listeners.CommandListener;
+import org.raider.raidercore.commands.CmdTestLeatherArmor;
 import org.raider.raidercore.patches.*;
 
 import java.util.Arrays;
@@ -65,8 +66,16 @@ public class RaiderCore extends JavaPlugin {
         loadPatches();
         getServer().getPluginCommand("rsettings").setExecutor(new CmdSettings());
         getServer().getPluginCommand("rconfig").setExecutor(new CmdConfig());
+        getServer().getPluginCommand("testarmor").setExecutor(new CmdTestLeatherArmor());
         i = this;
     }
+
+    public void onDisable(){
+        //lets ensure that our config is saved.
+        this.saveConfig();
+    }
+
+    //GETTERS
 
     public static int getConfigVersion(){
         return CONFIG_VERSION;
@@ -114,6 +123,54 @@ public class RaiderCore extends JavaPlugin {
 
     public static boolean isFactionTntEnabled(){
         return !factionTnt.isEmpty();
+    }
+
+    //SETTERS
+
+    public static void setConfigVersion(int value){
+        if(CONFIG_VERSION == value)return;
+        CONFIG_VERSION = value;
+        get().getConfig().set("config-version", value);
+    }
+
+    public static void setCreeperTargetting(boolean value){
+        DISABLE_CREEPER_PLAYER_TARGETING = value;
+    }
+
+    public static void setMobTargetting(boolean value){
+        DISABLE_ALL_MOB_PLAYER_TARGETING = value;
+    }
+
+    public static void setSpongePatchRadius(int value){
+        SPONGEPATCH_RADIUS = value;
+    }
+
+    public static void setWateredSpawnersPatchRadius(int value){
+        WATEREDSPAWNERSPATCH_RADIUS = value;
+    }
+
+    public static void setSpawnerSpongeRadius(int value){
+        SPAWNERSPONGE_RADIUS = value;
+    }
+
+    public static void toggleAllowCropDecay(ProtectedRegion pr){
+        if(noCropDecay.contains(pr)){
+            noCropDecay.remove(pr);
+        }else{
+            noCropDecay.add(pr);
+        }
+    }
+
+    public static void toggleAllowCommand(String command){
+        if(disallowCommands.contains(command)){
+            disallowCommands.remove(command);
+        }else{
+            disallowCommands.add(command);
+        }
+    }
+
+    public static void setExplosionsDisabled(boolean val){
+        DISABLE_EXPLOSIONS = val;
     }
 
     private void loadPatches(){

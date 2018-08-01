@@ -6,17 +6,27 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="855d658d-e443-4c08-9e79-34829fe6ea9a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSettings.java" afterDir="false" />
+    <list default="true" id="0fdcdfdb-bd31-41c8-bcad-5dc9875736f8" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Factions.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/PotatoHead_1_8_8_R0_2_SNAPSHOT_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/SilkSpawners__1_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_api_1_12_2_R0_1_SNAPSHOT_shaded_b1418.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/worldedit_bukkit_6_1_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/worldedit_bukkit_6_1_7_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/worldguard_6_2_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RaiderCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RaiderCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/org/raider/raidercore/RaiderCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/org/raider/raidercore/RaiderCore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/org/raider/raidercore/patches/NoTNTPatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/raider/raidercore/patches/NoTNTPatch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/plugin.yml" afterDir="false" />
     </list>
@@ -30,70 +40,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RaiderCore.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+      <file leaf-file-name="CmdConfig.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="156" column="67" selection-start-line="156" selection-start-column="67" selection-end-line="156" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3339#3340#0" expanded="true" />
-                <element signature="e#3379#3380#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="60">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmdReport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdReport.java">
+      <file leaf-file-name="CmdTestLeatherArmor.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CmdSettings.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSettings.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            <state relative-caret-position="450">
+              <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ConfigUtils.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ConfigUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpongePatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/SpongePatch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -101,17 +64,52 @@
       <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+            <state relative-caret-position="765">
+              <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaiderCore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RaiderCore.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/RaiderCore.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file leaf-file-name="WateredSpawnersPatch.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+            <state relative-caret-position="30">
+              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CropDecayDisable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -119,11 +117,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NoTNTPatch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/NoTNTPatch.java">
+      <file leaf-file-name="LeatherArmorTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+            <state relative-caret-position="778">
+              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -131,13 +129,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CmdConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <file leaf-file-name="ArmorType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+            <state relative-caret-position="165">
+              <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#869#870#0" expanded="true" />
+                <element signature="e#888#889#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -158,39 +157,14 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdReport.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/HopperCraftPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/events/ChunkChangeEvent.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/events/PlayerChunkChangeEvent.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/functions/OreMining.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTnt.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSotw.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/TntOffPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/functions/OreDropper.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdRestart.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/BlockPhysicsEvent.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/WaterBucketPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/WorldBorderPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/DisableSellHand.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTNTCraft.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/DisableIceForming.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/EnchantUtils.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/HungerPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/listeners/CommandListener.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/HostileMobsPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/SoilTrampleFix.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/SpawnerSpongePatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/SpongePatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/ConfigUtils.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSettings.java" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java" />
-        <option value="$PROJECT_DIR$/src/resources/plugin.yml" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java" />
         <option value="$PROJECT_DIR$/src/resources/config.yml" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/NoTNTPatch.java" />
+        <option value="$PROJECT_DIR$/src/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/CommandAbstract.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" />
       </list>
     </option>
   </component>
@@ -203,33 +177,18 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-1579" />
-    <option name="y" value="291" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
-  </component>
-  <component name="ProjectInspectionProfilesVisibleTreeState">
-    <entry key="Project Default">
-      <profile-state>
-        <expanded-state>
-          <State>
-            <id />
-          </State>
-        </expanded-state>
-        <selected-state>
-          <State>
-            <id>Android</id>
-          </State>
-        </selected-state>
-      </profile-state>
-    </entry>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,14 +219,7 @@
               <item name="RaiderCore" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="raidercore" type="462c0819:PsiDirectoryNode" />
-              <item name="listeners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="RaiderCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RaiderCore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="raidercore" type="462c0819:PsiDirectoryNode" />
-              <item name="patches" type="462c0819:PsiDirectoryNode" />
+              <item name="functions" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="RaiderCore" type="b2602c69:ProjectViewProjectNode" />
@@ -282,34 +234,21 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="RaiderCore" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar!/" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="G:\oldcomputer\RaiderCore\src\resources" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -371,68 +310,30 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="855d658d-e443-4c08-9e79-34829fe6ea9a" name="Default" comment="" />
-      <created>1528932137169</created>
+      <changelist id="0fdcdfdb-bd31-41c8-bcad-5dc9875736f8" name="Default" comment="" />
+      <created>1532665448080</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1528932137169</updated>
-      <workItem from="1528932140911" duration="3854000" />
-      <workItem from="1528941417025" duration="9000" />
-      <workItem from="1528941500663" duration="481000" />
-      <workItem from="1528946867055" duration="6899000" />
-      <workItem from="1528997321832" duration="68000" />
-      <workItem from="1529301180696" duration="473000" />
-      <workItem from="1529360265955" duration="173000" />
-      <workItem from="1529465303968" duration="822000" />
-      <workItem from="1529468337004" duration="1383000" />
-      <workItem from="1529469953109" duration="1676000" />
-      <workItem from="1529522639506" duration="1946000" />
-      <workItem from="1529538141023" duration="622000" />
-      <workItem from="1529553437855" duration="118000" />
-      <workItem from="1529555315730" duration="290000" />
-      <workItem from="1529558001815" duration="14000" />
-      <workItem from="1529559062068" duration="807000" />
-      <workItem from="1529606102648" duration="9000" />
-      <workItem from="1529680151987" duration="807000" />
-      <workItem from="1529681147256" duration="12000" />
-      <workItem from="1529681178075" duration="12000" />
-      <workItem from="1529684976188" duration="23000" />
-      <workItem from="1529688077285" duration="2771000" />
-      <workItem from="1529695525555" duration="1717000" />
-      <workItem from="1529715446672" duration="36000" />
-      <workItem from="1529720520216" duration="787000" />
-      <workItem from="1529728908213" duration="428000" />
-      <workItem from="1529760955689" duration="953000" />
-      <workItem from="1529775198014" duration="3010000" />
-      <workItem from="1529784224109" duration="959000" />
-      <workItem from="1529882249443" duration="499000" />
-      <workItem from="1529884062424" duration="1250000" />
-      <workItem from="1530054125386" duration="20000" />
-      <workItem from="1530117583165" duration="829000" />
-      <workItem from="1530126867443" duration="1087000" />
-      <workItem from="1530138334385" duration="6000" />
-      <workItem from="1530153544627" duration="1417000" />
-      <workItem from="1530157527970" duration="64000" />
-      <workItem from="1530159165226" duration="1880000" />
-      <workItem from="1530192616178" duration="527000" />
-      <workItem from="1530584925068" duration="1034000" />
-      <workItem from="1530592241892" duration="4856000" />
-      <workItem from="1530619534066" duration="1646000" />
-      <workItem from="1530638818034" duration="3575000" />
-      <workItem from="1530721561648" duration="12000" />
-      <workItem from="1532055666520" duration="1383000" />
+      <updated>1532665448080</updated>
+      <workItem from="1532665451702" duration="1475000" />
+      <workItem from="1532783722851" duration="1934000" />
+      <workItem from="1532827936440" duration="1479000" />
+      <workItem from="1532836952352" duration="1208000" />
+      <workItem from="1533076979929" duration="1199000" />
+      <workItem from="1533078404563" duration="400000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51244000" />
+    <option name="totallyTimeSpent" value="7695000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1928" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="947" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32943678" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -441,11 +342,10 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Floobits" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2515625" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -455,7 +355,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
@@ -467,247 +367,18 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <option name="time" value="2" />
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/Downloads/SilkSpawners.jar!/de/dustplanet/util/SilkUtil.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3009">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/NoHopper.jar!/me/raymart/CraftListener.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/NoHopper.jar!/me/raymart/NoHopper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/TNTLava.jar!/com/mcthrones/tntlava/TNTLava.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-596">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/FactionsFly(v1.8.7) - FREE/FactionsFly(v1.8.7 for MCore).jar!/me/sacchur/mcore/factionsfly/main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1804">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/FactionsFly(v1.8.7) - FREE/FactionsFly(v1.8.7 for MCore).jar!/me/sacchur/mcore/factionsfly/listeners/landcheck.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/FactionsFly(v1.8.7) - FREE/FactionsFly(v1.8.7 for MCore).jar!/me/sacchur/mcore/factionsfly/listeners/playerJoin.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/FactionsFly(v1.8.7) - FREE/FactionsFly(v1.8.7 for MCore).jar!/me/sacchur/mcore/factionsfly/listeners/noepearl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/FactionsFly(v1.8.7) - FREE/FactionsFly(v1.8.7 for MCore).jar!/me/sacchur/mcore/factionsfly/listeners/checknear.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/events/ChunkChangeEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/events/PlayerChunkChangeEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/OreMining.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTnt.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSotw.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/OreDropper.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdRestart.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/TntOffPatch.java" />
-    <entry file="jar://$USER_HOME$/Downloads/SpawnerSponge.jar!/me/xgaminqpvpx/ss/Main.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/SpawnerSponge.jar!/.project">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$USER_HOME$/Downloads/SpawnerSponge.jar!/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/BlockPhysicsEvent.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WaterBucketPatch.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WorldBorderPatch.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTNTCraft.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/DisableSellHand.java" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/DisableIceForming.java" />
-    <entry file="jar://G:/factions-depend/PotatoHead-1.8.8-R0.2-SNAPSHOT_8.jar!/org/bukkit/event/inventory/PrepareItemCraftEvent.class" />
-    <entry file="jar://G:/factions-depend/PotatoHead-1.8.8-R0.2-SNAPSHOT_8.jar!/story/toy/potatohead/event/InventoryPostClickEvent.class" />
-    <entry file="jar://G:/factions-depend/PotatoHead-1.8.8-R0.2-SNAPSHOT_8.jar!/net/minecraft/server/v1_8_R3/Item.class" />
-    <entry file="jar://G:/factions-depend/PotatoHead-1.8.8-R0.2-SNAPSHOT_8.jar!/net/minecraft/server/v1_8_R3/ItemStack.class" />
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/EnchantUtils.java" />
-    <entry file="file://$PROJECT_DIR$/src/resources.config.yml" />
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar!/config.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar!/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="40" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/HopperCraftPatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/HostileMobsPatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="61" selection-start-line="6" selection-start-column="61" selection-end-line="6" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/HungerPatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="9" column="39" selection-start-line="9" selection-start-column="39" selection-end-line="9" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/SoilTrampleFix.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="26" column="172" selection-start-line="26" selection-start-column="172" selection-end-line="26" selection-end-column="172" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/SpawnerSpongePatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="52" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/listeners/CommandListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/SpongePatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="19" column="84" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdSettings.java">
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdReport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="11" column="98" selection-start-line="11" selection-start-column="98" selection-end-line="11" selection-end-column="98" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ConfigUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/NoTNTPatch.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="450">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -716,19 +387,341 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="765">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="156" column="67" selection-start-line="156" selection-start-column="67" selection-end-line="156" selection-end-column="67" />
+        <state relative-caret-position="720">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3339#3340#0" expanded="true" />
-            <element signature="e#3379#3380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RaiderCore.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+          <folding>
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="62" column="5" lean-forward="true" selection-start-line="62" selection-start-column="5" selection-end-line="62" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1648.jar!/org/bukkit/Material.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="271" column="22" selection-start-line="271" selection-start-column="22" selection-end-line="271" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1648.jar!/org/bukkit/Material.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="271" column="22" selection-start-line="271" selection-start-column="22" selection-end-line="271" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="73" column="47" selection-start-line="73" selection-start-column="47" selection-end-line="73" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="24" selection-start-line="15" selection-start-column="24" selection-end-line="15" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1648.jar!/org/bukkit/Material.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3120">
+          <caret line="271" column="22" selection-start-line="271" selection-start-column="22" selection-end-line="271" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="35" column="51" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/spigot-api-1.12.2-R0.1-SNAPSHOT-shaded-b1648.jar!/org/bukkit/Material.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4065">
+          <caret line="271" column="22" selection-start-line="271" selection-start-column="22" selection-end-line="271" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/Downloads/CustomArmor1.2.jar!/me/xxtheendergodxx/customarmor/Customarmor.class" />
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="83" selection-start-line="51" selection-start-column="83" selection-end-line="51" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/CommandAbstract.java" />
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/RaiderCore.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="e#869#870#0" expanded="true" />
+            <element signature="e#888#889#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="778">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -798,9 +791,21 @@
           </splitter-proportions>
         </settings>
       </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Factions</last-edited>
+          <last-edited>worldedit-bukkit-6.1.7.3</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

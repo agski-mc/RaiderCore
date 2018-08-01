@@ -48,3 +48,5 @@ spongepatch-radius: 7
 #In these regions and worlds, tnt will only be able to be used by the faction who owns the land its being used in.
 faction-based-tnt:
   - EXAMPLE:WORLD
+#There is no configuration as of this config version for this function but I have added in testing for a function that gives players leather armor that takes
+#damage like diamond armor.  This has not been fully tested as of config-version 1.
