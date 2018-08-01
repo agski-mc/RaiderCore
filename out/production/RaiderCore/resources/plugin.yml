@@ -17,4 +17,7 @@ commands:
   testarmor:
     description: test command for giving players custom leather armor that acts like diamond armor.
     usage: /testarmor <ArmorType>
+  rattributes:
+    description: check item attributes.
+    usage: /rattributes
 

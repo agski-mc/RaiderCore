@@ -7,27 +7,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0fdcdfdb-bd31-41c8-bcad-5dc9875736f8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/craftbukkit_1_8_8_R0_1_SNAPSHOT_latest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Factions.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/PotatoHead_1_8_8_R0_2_SNAPSHOT_8.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/SilkSpawners__1_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/spigot_api_1_12_2_R0_1_SNAPSHOT_shaded_b1418.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/worldedit_bukkit_6_1_7_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/worldedit_bukkit_6_1_7_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/worldguard_6_2_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdCheckAttributes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/RaiderCore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RaiderCore.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/RaiderCore_jar/RaiderCore.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/org/raider/raidercore/RaiderCore.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/org/raider/raidercore/RaiderCore.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/plugin.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/resources/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/RaiderCore/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RaiderCore/resources/plugin.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/resources/plugin.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -40,15 +28,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="CmdConfig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CmdTestLeatherArmor.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -73,8 +52,8 @@
       <file leaf-file-name="plugin.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            <state relative-caret-position="285">
+              <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -82,8 +61,8 @@
       <file leaf-file-name="RaiderCore.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+            <state relative-caret-position="720">
+              <caret line="66" column="89" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -120,8 +99,20 @@
       <file leaf-file-name="LeatherArmorTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="778">
-              <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+            <state relative-caret-position="373">
+              <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CmdCheckAttributes.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdCheckAttributes.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -134,10 +125,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="165">
               <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
-              <folding>
-                <element signature="e#869#870#0" expanded="true" />
-                <element signature="e#888#889#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -159,11 +146,12 @@
       <list>
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdTestLeatherArmor.java" />
         <option value="$PROJECT_DIR$/src/resources/config.yml" />
-        <option value="$PROJECT_DIR$/src/resources/plugin.yml" />
-        <option value="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" />
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/CommandAbstract.java" />
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java" />
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdCheckAttributes.java" />
+        <option value="$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java" />
+        <option value="$PROJECT_DIR$/src/resources/plugin.yml" />
         <option value="$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java" />
       </list>
     </option>
@@ -187,8 +175,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -238,7 +226,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -321,11 +309,20 @@
       <workItem from="1532836952352" duration="1208000" />
       <workItem from="1533076979929" duration="1199000" />
       <workItem from="1533078404563" duration="400000" />
+      <workItem from="1533132627054" duration="1724000" />
     </task>
+    <task id="LOCAL-00001" summary="added non working functions for custom armor">
+      <created>1533132827691</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1533132827691</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7695000" />
+    <option name="totallyTimeSpent" value="9419000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="947" extended-state="0" />
@@ -333,7 +330,7 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3298969" />
+      <window_info anchor="bottom" id="Messages" order="7" visible="true" weight="0.3298969" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -367,7 +364,45 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added non working functions for custom armor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added non working functions for custom armor" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/WateredSpawnersPatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/utils/ArmorType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdConfig.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -433,10 +468,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
           <caret line="30" column="20" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
-          <folding>
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -665,25 +696,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="48" column="54" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/RaiderCore.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/patches/CropDecayDisable.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -709,17 +723,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/plugin.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="14" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/commands/CmdCheckAttributes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="20" selection-start-line="47" selection-start-column="20" selection-end-line="47" selection-end-column="20" />
           <folding>
-            <element signature="e#869#870#0" expanded="true" />
-            <element signature="e#888#889#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/RaiderCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="66" column="89" selection-start-line="66" selection-start-column="89" selection-end-line="66" selection-end-column="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/org/raider/raidercore/functions/LeatherArmorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="778">
-          <caret line="66" column="27" selection-start-line="66" selection-start-column="27" selection-end-line="66" selection-end-column="27" />
+        <state relative-caret-position="373">
+          <caret line="41" column="53" selection-start-line="41" selection-start-column="53" selection-end-line="41" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -805,7 +842,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>worldedit-bukkit-6.1.7.3</last-edited>
+          <last-edited>craftbukkit-1.8.8-R0.1-SNAPSHOT-latest</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

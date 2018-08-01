@@ -13,6 +13,8 @@ import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.ItemMeta;
 import org.raider.raidercore.utils.ArmorType;
 
+import java.util.jar.Attributes;
+
 public class LeatherArmorTest implements Listener {
     public static void getArmor(Player player, ArmorType type){
         ItemStack is = new ItemStack(type.getMaterial() );
@@ -38,16 +40,16 @@ public class LeatherArmorTest implements Listener {
         toughness.set("Slot", new NBTTagString(type.getSlotName()));
         toughness.set("Amount", new NBTTagInt(amt));
         toughness.set("Operation", new NBTTagInt(0));
-        toughness.set("UUIDLeast", new NBTTagInt(894654));
-        toughness.set("UUIDMost", new NBTTagInt(2872));
+        toughness.set("UUIDLeast", new NBTTagInt(0));
+        toughness.set("UUIDMost", new NBTTagInt(1));
         NBTTagCompound armor = new NBTTagCompound();
         armor.set("AttributeName", new NBTTagString("generic.armor"));
         armor.set("Name", new NBTTagString("armor"));
         armor.set("Slot", new NBTTagString(type.getSlotName()));
         armor.set("Amount", new NBTTagInt(amt));
         armor.set("Operation", new NBTTagInt(0));
-        armor.set("UUIDLeast", new NBTTagInt(894654));
-        armor.set("UUIDMost", new NBTTagInt(2872));
+        armor.set("UUIDLeast", new NBTTagInt(/*894654*/ 0));
+        armor.set("UUIDMost", new NBTTagInt(/*2872*/ 1));
         nbtList.add(armor);
         nbtList.add(toughness);
         if(nbt.hasKey("AttributeModifiers")){

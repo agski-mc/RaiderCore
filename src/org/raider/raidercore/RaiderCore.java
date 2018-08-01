@@ -7,11 +7,8 @@ import org.bukkit.Bukkit;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
-import org.raider.raidercore.commands.CmdConfig;
-import org.raider.raidercore.commands.CmdReport;
-import org.raider.raidercore.commands.CmdSettings;
+import org.raider.raidercore.commands.*;
 import org.raider.raidercore.listeners.CommandListener;
-import org.raider.raidercore.commands.CmdTestLeatherArmor;
 import org.raider.raidercore.patches.*;
 
 import java.util.Arrays;
@@ -67,6 +64,7 @@ public class RaiderCore extends JavaPlugin {
         getServer().getPluginCommand("rsettings").setExecutor(new CmdSettings());
         getServer().getPluginCommand("rconfig").setExecutor(new CmdConfig());
         getServer().getPluginCommand("testarmor").setExecutor(new CmdTestLeatherArmor());
+        getServer().getPluginCommand("rattributes").setExecutor(new CmdCheckAttributes());
         i = this;
     }
 
