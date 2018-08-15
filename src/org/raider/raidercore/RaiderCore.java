@@ -9,6 +9,7 @@ import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 import org.raider.raidercore.commands.*;
 import org.raider.raidercore.listeners.CommandListener;
+import org.raider.raidercore.listeners.XpBottleListener;
 import org.raider.raidercore.patches.*;
 
 import java.util.Arrays;
@@ -65,6 +66,7 @@ public class RaiderCore extends JavaPlugin {
         getServer().getPluginCommand("rconfig").setExecutor(new CmdConfig());
         getServer().getPluginCommand("testarmor").setExecutor(new CmdTestLeatherArmor());
         getServer().getPluginCommand("rattributes").setExecutor(new CmdCheckAttributes());
+        getServer().getPluginCommand("xp").setExecutor(new CmdXp());
         i = this;
     }
 
@@ -196,6 +198,7 @@ public class RaiderCore extends JavaPlugin {
         if(!factionTnt.isEmpty() || DISABLE_EXPLOSIONS){
             pm.registerEvents(new NoTNTPatch(), this);
         }
+        pm.registerEvents(new XpBottleListener(), this);
     }
 
     public void loadConfig(){

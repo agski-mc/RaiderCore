@@ -20,4 +20,7 @@ commands:
   rattributes:
     description: check item attributes.
     usage: /rattributes
+  xp:
+    description: gets an xp bottle.
+    usage: /xp <Amount>
 
